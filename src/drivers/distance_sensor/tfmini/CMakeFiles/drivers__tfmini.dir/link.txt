@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libdrivers__tfmini.a  CMakeFiles/drivers__tfmini.dir/tfmini.cpp.o CMakeFiles/drivers__tfmini.dir/tfmini_parser.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libdrivers__tfmini.a

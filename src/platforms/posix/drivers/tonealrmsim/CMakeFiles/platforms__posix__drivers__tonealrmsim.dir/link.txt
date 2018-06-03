@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libplatforms__posix__drivers__tonealrmsim.a  CMakeFiles/platforms__posix__drivers__tonealrmsim.dir/tone_alarm.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libplatforms__posix__drivers__tonealrmsim.a

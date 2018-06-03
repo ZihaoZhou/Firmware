@@ -106,6 +106,10 @@ int px4_simple_app_main(int argc, char *argv[])
 					 (double)raw.accelerometer_m_s2[0],
 					 (double)raw.accelerometer_m_s2[1],
 					 (double)raw.accelerometer_m_s2[2]);
+                //PX4_INFO("Gyroscope:\t%8.4f\t%8.4f\t%8.4f",
+                     //(double)raw.gyro_rad[0],
+                     //(double)raw.gyro_rad[1],
+                     //(double)raw.gyro_rad[2]);
 
 				/* set att and publish this information for other apps
 				 the following does not have any meaning, it's just an example

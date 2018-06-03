@@ -53,7 +53,7 @@ set(config_module_list
 	drivers/distance_sensor/srf02
 	drivers/distance_sensor/teraranger
 	drivers/distance_sensor/tfmini
-	#drivers/distance_sensor/ulanding
+	drivers/distance_sensor/ulanding
 	modules/sensors
 
 	#
@@ -109,8 +109,8 @@ set(config_module_list
 	#
 	# Estimation modules
 	#
-	#modules/attitude_estimator_q
-	modules/ekf2
+	modules/attitude_estimator_q
+    #modules/ekf2
 	#modules/local_position_estimator
 	#modules/position_estimator_inav
 	#modules/landing_target_estimator
@@ -121,8 +121,8 @@ set(config_module_list
 	#
 	modules/fw_att_control
 	modules/fw_pos_control_l1
-	#modules/gnd_att_control
-	#modules/gnd_pos_control
+	modules/gnd_att_control
+	modules/gnd_pos_control
 	modules/mc_att_control
 	modules/mc_pos_control
 	modules/vtol_att_control
@@ -159,7 +159,7 @@ set(config_module_list
 
 	# Tutorial code from
 	# https://px4.io/dev/px4_simple_app
-	#examples/px4_simple_app
+	examples/px4_simple_app
 
 	# Tutorial code from
 	# https://px4.io/dev/debug_values
